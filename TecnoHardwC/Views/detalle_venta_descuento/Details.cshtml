@@ -1,0 +1,58 @@
+﻿@model TecnoHardwC.Models.detalle_venta_descuento
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>detalle_venta_descuento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cantidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descuento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descuento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.articulo.codigo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.articulo.codigo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.venta.tipo_comprobante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.venta.tipo_comprobante)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.iddetalle_venta }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

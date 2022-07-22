@@ -1,0 +1,406 @@
+﻿@model IEnumerable<TecnoHardwC.Models.detalle_venta_descuento>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>PRECIOS Y OFERTAS </h2>
+<link href="~/estilo.css/StyleSheet4.css" rel="stylesheet" />
+<div class="container">
+    <div class="row">
+        <!-- Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="~/img/FONDO.jpg" alt="First slide">
+                    <!-- Static Header -->
+                    <div class="header-text hidden-xs">
+                        <div class="col-md-12 text-center">
+                            <h2>
+                                <span>!Bienvenido¡ <strong>Tu pagina favorita</strong></span>
+                            </h2>
+                            <br>
+                            <h3>
+                                <span>“Democratizar el comercio electrónico y ser un puente entre el comprador y vendedor”</span>
+                            </h3>
+                            <br>
+                            <div class="">
+                                <a class="btn btn-theme btn-sm btn-min-block" href="http://localhost:55131/Home/About">Vision y Mision</a>
+                                <a class="btn btn-theme btn-sm btn-min-block" href="http://localhost:55131/personas">Contactanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2>Monitores</h2>
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/img/monitor1.jpg" class="img-responsive" />
+        <h4>
+            Antes:pesos colombianos $539.900 Descuento de 8%<br />
+            Ahora:pesos colombianos $496.708 <br />
+        </h4>
+
+        <p>
+            Descripción<br />
+
+            Samsung está fielmente comprometida en brindar productos de calidad y que contribuyan a crear un mejor futuro para las personas. Como empresa líder en la industria tecnológica uno de sus objetivos principales es desarrollar avanzadas e innovadoras soluciones. Es por ello que con este monitor tendrás y disfrutarás de una gran experiencia visual en todo momento.<br />
+
+            Un monitor a la medida<br />
+            Con tu pantalla LED no solo ahorrarás energía, ya que su consumo es bajo, sino que podrás ver colores nítidos y definidos en tus películas o series favoritas.<br />
+
+            Una experiencia visual de calidad<br />
+            Este monitor de 22" te proporcionará comodidad para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permitirá disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de ti y evitarás forzar tu vista para enfocar el contenido. Su tiempo de respuesta de 5 ms lo hace ideal para gamers y cinéfilos porque es capaz de mostrar imágenes en movimiento sin halos o bordes borrosos.<br />
+
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/monitor2.jpg" class="img-responsive" />
+        <h4>
+            Antes:  pesos colombiano $639.900<br />
+            Ahora:  pesos colombiano $588.708<br />
+        </h4>
+        <p>
+            Descripción<br />
+
+            Samsung está fielmente comprometida en brindar productos de calidad y que contribuyan a crear un mejor futuro para las personas. Como empresa líder en la industria tecnológica uno de sus objetivos principales es desarrollar avanzadas e innovadoras soluciones. Es por ello que con este monitor tendrás y disfrutarás de una gran experiencia visual en todo momento.<br />
+
+            Un monitor a la medida<br />
+            Con tu pantalla LED no solo ahorrarás energía, ya que su consumo es bajo, sino que podrás ver colores nítidos y definidos en tus películas o series favoritas.<br />
+
+            Una experiencia visual de calidad<br />
+            Este monitor de 24" te proporcionará comodidad para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permitirá disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de ti y evitarás forzar tu vista para enfocar el contenido. Su tiempo de respuesta de 4 ms lo hace ideal para gamers y cinéfilos porque es capaz de mostrar imágenes en movimiento sin halos o bordes borrosos.<br />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/monitor3.jpg" class="img-responsive" />
+        <h4>
+            Antes: pesos$609.900 <br />
+            561108 pesos$561.108 <br />
+        </h4>
+        <p>
+            Descripción<br />
+
+            LG busca entender a los usuarios para ofrecerles óptimas soluciones y nuevas experiencias a través de la evolución tecnológica. Disfruta de la perfecta combinación de diseño, calidad y rendimiento que la empresa te ofrece en este monitor.<br />
+
+            Un monitor a la medida<br />
+            Con tu pantalla LED no solo ahorrarás energía, ya que su consumo es bajo, sino que podrás ver colores nítidos y definidos en tus películas o series favoritas.<br />
+
+            Una experiencia visual de calidad<br />
+            Este monitor de 23.8" te proporcionará comodidad para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permitirá disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de ti y evitarás forzar tu vista para enfocar el contenido. Su tiempo de respuesta de 5 ms lo hace ideal para gamers y cinéfilos porque es capaz de mostrar imágenes en movimiento sin halos o bordes borrosos.<br />
+        </p>
+    </div>
+</div>
+                                            ------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2>Servidores</h2>
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/img/servidor1.jpg" />
+        <h4>pesos colombianos $3.099.000</h4>
+        <p>
+            Descripción<br />
+
+            --- ////// --- DISTRIMAK --- \\\\\\ ---<br />
+
+            AHORRA TIEMPO, AHORRA DINERO.<br />
+            _____________________________________________<br />
+            * pregunta por la ampliación de memoria RAM 16gb, 32gb, 64gb<br />
+
+            SERVIDOR DELL POWER EDGE T40 REMPLAZO DELL T30<br />
+
+            C A R A C T E R I S T I C A S<br />
+            ____________________________________________<br />
+
+            • Procesador: Intel® Xeon® E-2224G 3.5GHz, 8M de caché, 4C / 4T, turbo (71W)<br />
+            • Sin sistema operativo: sin sistema operativo<br />
+            • Memoria: 16GB 2666MT / s DDR4 (8GB x 2) No ECC UDIMM<br />
+            • Configuración del chasis: chasis de 3.5 "con hasta 4 discos duros<br />
+            • Discos duros: 1TB 7.2K RPM SATA 6Gbps Entrada 3.5in Disco duro cableado<br />
+            • Configuración RAID: sin RAID con SATA incorporado<br />
+            • Unidad óptica interna: 8x DVD +/- RW 9.5mm Optical Disk Drive<br />
+            • Gestión de sistemas integrados: Tecnología Intel Active Management<br />
+            • Cables de alimentación: cable de alimentación US 125V<br />
+            • Configuración térmica del procesador: disipador térmico térmico<br />
+            • Garantía limitada de hardware de Dell<br />
+
+            G A R A N T I A<br />
+            ____________________________________________<br />
+
+            1 Año de garantía por defectos de fabricación (Hardware) directamente con la marca<br />
+            *Conservando empaques originales. No Aplica para software, daños ocasionados por manipulación no autorizada, golpes o mal uso del equipo<br />
+            _________________________________________<br />
+
+            DISTRIMAK Es una empresa con 11 años de experiencia en ofrecer soluciones en tecnología, contamos con las mejores marcas y precios sorprendentes.<br />
+
+            • SOMOS DISTRIBUIDORES manejamos precios competitivos por volumen de compra.<br />
+            • EMITIMOS FACTURA LEGAL.<br />
+            • SOMOS MercadoLibre nivel PLATINUM debido a nuestra reputación todos nuestros envíos son completamente GRATIS.<br />
+
+            MEDIOS DE PAGO:<br />
+            Realiza tu compra a través de MercadoPago y escoge entre diferentes formas de pago que se ajusten a tu necesidad. TU DINERO ESTA PROTEGIDO 100% por este medio.<br />
+
+            DESPACHOS:<br />
+            Una vez el pago esté confirmado el tiempo de despacho se realiza entre 12 a 24 horas hábiles, te enviamos el número de guía para que puedas ver el estado del envío de tu equipo. La entrega se hace por medio de Servientrega empresa 100% Segura y confiable.<br />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/servidor2.jpg" />
+        <h4> pesos colombianos $4.189.000 </h4>
+        <p>
+            Descripción<br />
+
+            ** SOMOS TIENDA FISICA EN BUCARAMANGA **<br />
+            EXPERTOS EN REDES Y TELECOMUNICACIONES<br />
+
+            Marca: DELL<br />
+            Modelo: T140 - RERENCIA TX41F<br />
+
+            PREGUNTA POR TU LICENCIA DE WINDOWS SERVER 2019<br />
+            ___________________________________<br />
+
+            Factor de Forma: Torre<br />
+
+            Procesador: Intel® Xeon® E-2224, 3.4 GHz, 8M Cache, 4C/4T turbo (71W).<br />
+
+            Máximo: 1 Procesador<br />
+
+            Memoria RAM: 16GB Memory, 2666MT/s, DDR4 ECC UDIMM<br />
+
+            Slot de Memoria: 4 Slot, Crece Máximo a 64GB<br />
+
+            Puertos de Red: 2-Port LAN 10/100/1000 GbE<br />
+
+            Discos Duros: Incluye 1 Disco de 2TB 7.2K RPM SATA 6 Gbps 3.5in Cabled Hard Drive.<br />
+
+            Soporta Máximo 4 Discos de 3.5" SATA. Non-Hot Plug 3.5in Hard Disk<br />
+
+            RAID: 0, 1, 10, 5, 50 SATA/SAS<br />
+
+            Controladora: PERC H330<br />
+
+            Unidad Óptica: SATA DVD +/- RW ships standard<br />
+
+            Fuente de Poder: 290W Máximo una fuente, no permite redundancia.<br />
+
+            Garantía: 12 meses<br />
+
+            Sistema Operativo: No Incluye SISTEMA OPERATIVO<br />
+            ___________________________________<br />
+
+            ENVIOS.<br />
+
+            Realizamos despachos contra-entrega en Bucaramanga.<br />
+            Realizamos envios a nivel nacional gratis a partir de $90.000 pesos por Mercadolibre<br />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/servidor3.jpg" />
+        <h4>pesos colombianos $3.299.999</h4>
+        <p>
+            Descripción <br />
+
+
+            ¡GARANTÍA 12 MESES ELH COLOMBIA / CENTROS DE SERVICIO A NIVEL NACIONAL!<br />
+            Garantizamos nuestros artículos tanto técnica como legalmente.<br />
+
+            DESCRIPCIÓN:<br />
+
+            Servidor: DELL PowerEdge T40 ULTIMO MODELO!<br />
+
+            Procesador: Intel Xeon ULTIMA VERSION 2020<br />
+
+            Ram: 8GB DDR4 ECC UDIMM 2133<br />
+
+            Disco D: 1TB (RAID Level RAID O,RAID 1, RAID 5, RAID 10) por SW<br />
+
+            U.dvd: si<br />
+
+            Sistema operativo: No incluye<br />
+
+            ********************************************BONUS*********************************************<br />
+
+            *******************************VENTAJAS DE COMPRAR EN ELH COLOMBIA****************************<br />
+
+            SOMOS DISTRIBUIDORES manejamos precios especiales por volumen de compra.<br />
+            * SOMOS Mercado Líder PLATINUM.<br />
+            * EMITIMOS FACTURA LEGAL.<br />
+            * Soporte y asistencia en línea VITALACIO.<br />
+            * MEDIOS DE PAGO: Realiza tu compra a través de Mercado Pago y escoge entre diferentes formas de pago que se ajusten a ti.<br />
+
+            CALIDAD Y EL MEJOR PRECIO POSIBLE SOLO EN: ¡ELH COLOMBIA!<br />
+        </p>
+    </div>
+</div>
+                                            ------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2>Impresoras</h2>
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/img/impresora1.jpg" />
+        <h4>
+            pesos colombianos 370.900<br />
+        </h4>
+        <p>
+            Descripción<br />
+
+            HP provee las impresoras más seguras del mundo. Con ellas, conseguirás proteger tu información, obtener lo máximo en tecnología y un rendimiento impresionante que se adaptará a cualquier reto que tengas. Sin dudas, esta máquina es ideal para cumplir, de forma eficiente, la meta que te propongas.<br />
+
+            Eficiencia y calidad<br />
+            Imprimí fácilmente todo lo que quieras con esta impresora HP, ya sean pocas páginas o grandes proyectos.<br />
+
+            Perfecta para tu hogar o la oficina<br />
+            Si buscas realizar grandes tiradas en pocos minutos, su tecnología láser es ideal para tí. Es simple y fácil de usar y tiene un costo de mantenimiento significativamente menor que las que funcionan a tinta.<br />
+
+            Conectividad móvil<br />
+            Ahora puedes imprimir fácilmente desde tu celular o tablet sin importar en donde te encuentres y sin la asistencia de una computadora. Disfruta de sus soluciones de impresión móvil, utiliza la que más te guste y ten tus documentos en solo segundos.<br />
+
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/impresora2.jpg" />
+        <h4>
+            pesos colombiano $643.000
+        </h4>
+        <p>
+            Descripción<br />
+
+            Epson busca que sus clientes obtengan el máximo provecho de sus productos. Por ello, brinda soluciones de impresión con una amplia gama de dispositivos que cubren todos los usos y necesidades, tanto en casa como en el trabajo.<br />
+
+            Eficiencia y calidad<br />
+            Imprime archivos, escanea documentos y haz todas las fotocopias que necesites con esta impresora multifunción Epson, siempre lista para facilitar tu rutina de trabajo o estudio.<br />
+
+            Perfecta para tu hogar o la oficina<br />
+            Al ser a tinta te permitirá lograr impresiones de gran calidad con colores vivos y degradados suaves. Ocupa poco espacio y es fácil de manejar lo que la convierte en la opción ideal para cuestiones laborales, tareas escolares y requerimientos de la vida diaria.<br />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/impresora3.jpg" />
+        <h4>
+            Antes: pesos$813.900 Descuento 12% OFF<br />
+            Ahora: pesos colombianos $716.232<br />
+        </h4>
+        <p>
+            Descripción<br />
+
+            Epson busca que sus clientes obtengan el máximo provecho de sus productos. Por ello, brinda soluciones de impresión con una amplia gama de dispositivos que cubren todos los usos y necesidades, tanto en casa como en el trabajo.<br />
+
+            Eficiencia y calidad<br />
+            Imprime archivos, escanea documentos y haz todas las fotocopias que necesites con esta impresora multifunción Epson, siempre lista para facilitar tu rutina de trabajo o estudio.<br />
+
+            Perfecta para tu hogar o la oficina<br />
+            Al ser a tinta te permitirá lograr impresiones de gran calidad con colores vivos y degradados suaves. Ocupa poco espacio y es fácil de manejar lo que la convierte en la opción ideal para cuestiones laborales, tareas escolares y requerimientos de la vida diaria.<br />
+
+            Conectividad móvil<br />
+            Ahora puedes imprimir fácilmente desde tu celular o tablet sin importar en donde te encuentres y sin la asistencia de una computadora. Disfruta de sus soluciones de impresión móvil, utiliza la que más te guste y ten tus documentos en solo segundos.<br />
+        </p>
+    </div>
+</div>
+                                            ------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2>Teclados</h2>
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/img/teclado1.jpg" />
+        <h4> pesos Colombianos $42.800</h4>
+        <p>
+            Descripción<br />
+
+            Este teclado Weibo de alto rendimiento permite que puedas disfrutar de horas ilimitadas de juegos. Está diseñado especialmente para que puedas expresar tanto tus habilidades como tu estilo. Podrás mejorar tu experiencia de gaming, ya seas un aficionado o todo un experto, y hacer que tus jugadas alcancen otro nivel.<br />
+
+            Distinción a todo color<br />
+            Su retroiluminación da un toque diferente a tu equipo y resalta su composición cuando es utilizado en espacios poco iluminados.<br />
+
+            Tecnología antighosting<br />
+            Este dispositivo tiene teclas antighosting. Esta cualidad es indispensable si requieres de un uso intensivo del periférico. Gracias a esto podrás evitar fallas al tocar varias teclas al mismo tiempo.<br />
+
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/teclado2.jpg" />
+        <h4>pesos colombiano $158.000</h4>
+        <p>
+            Descripción<br />
+
+            La gran calidad del Redragon Kumara K552, y su precio económico lo vuelven un atractivo ideal para que te diviertas frente a la pantalla. Su ergonomía, su base antidelizante y su rápido tiempo de respuesta permite que tus juegos favoritos se sientan más cerca que nunca, al alcance de tus manos.<br />
+
+            Distinción a todo color<br />
+            Su retroiluminación da un toque diferente a tu equipo y resalta su composición cuando es utilizado en espacios poco iluminados.<br />
+
+            Tecnología antighosting<br />
+            Este dispositivo tiene teclas antighosting. Esta cualidad es indispensable si requieres de un uso intensivo del periférico. Gracias a esto podrás evitar fallas al tocar varias teclas al mismo tiempo.<br />
+        </p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/img/teclado3.jpg" />
+        <h4>
+            pesos clombianos $109.800
+        </h4>
+        <p>
+            Descripción<br />
+
+            Innovadores en diseño y tecnología, Logitech se encarga de brindar la mejor experiencia de uso para sus usuarios. Sus teclados resaltan por ser resistentes y muy de buena calidad, por lo que podrás disfrutarlos por un largo tiempo.<br />
+
+            Facilidad de manejo<br />
+            Con su touchpad incorporado puedes controlar el cursor de manera sencilla y mantener una cómoda navegación en cualquier interfaz.<br />
+        </p>
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Registrar Productos", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.descuento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.articulo.codigo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.venta.tipo_comprobante)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cantidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descuento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.articulo.codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.venta.tipo_comprobante)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.iddetalle_venta }) |
+                @Html.ActionLink("Details", "Details", new { id = item.iddetalle_venta }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.iddetalle_venta })
+            </td>
+        </tr>
+    }
+
+</table>
